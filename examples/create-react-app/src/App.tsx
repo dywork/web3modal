@@ -22,7 +22,7 @@ const wagmiClient = createClient({
 // 3. Configure modal ethereum client
 const ethereumClient = new EthereumClient(wagmiClient, chains)
 
-// 4. Wrap your app with WagmiProvider and add <Web3Modal /> compoennt
+// 4. Wrap your app with WagmiProvider and add <Web3Modal /> component
 export default function App() {
   return (
     <>
